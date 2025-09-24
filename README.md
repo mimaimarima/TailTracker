@@ -13,5 +13,7 @@ This Java console application is for a pet management system. It features a simp
 
 • Audit & Session Traceability: All operations are timestamped, versioned, and tied to the responsible user and session.
 
+• DAO Pattern Implementation: SQL queries embedded within
+
 ## Database Schema
 ![er](https://github.com/user-attachments/assets/c0fb5b7c-711f-475c-9e51-8ec52471abd5)
