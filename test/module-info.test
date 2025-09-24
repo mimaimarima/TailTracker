@@ -1,0 +1,11 @@
+open module pets.test {
+    requires pets;
+    requires org.junit.jupiter.api;
+    requires java.sql;
+    
+    // For H2 database
+    requires h2;
+    
+    // Opens packages for testing
+    opens pets to org.junit.platform.commons;
+}
